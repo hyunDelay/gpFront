@@ -267,7 +267,7 @@ const JoinPage = () => {
                 if(data.msg === 'good'){
                     alert('인증메일이 전송되었습니다.');
                 }
-                console.log(data.verificationCode); // 인증번호 확인용
+                //console.log(data.verificationCode); // 인증번호 확인용
             })
             .catch(() => {
                 alert('인증번호 전송에 실패했습니다.');
