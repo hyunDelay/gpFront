@@ -51,7 +51,7 @@ const MainPage = () => {
     return (
         <StyledMainPageDiv>
             <div id='mainimg'>
-                <img src='http://107.23.215.249:8080/gamepound/resources/images/mainImg/mainimg.gif'></img>
+                <img src='http://34.198.44.180:8080/gamepound/resources/images/mainImg/mainimg.gif'></img>
             </div>
             <div id='slogan'>Pound for Indie Games</div>
             <button onClick={handleBtnClick}>프로젝트 둘러보기</button>
