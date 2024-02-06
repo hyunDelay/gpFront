@@ -50,9 +50,9 @@ const ImminentPage = () => {
     const [sendVo, setSendVo] = useState({
         "achievementRate" : "",
     });
-
+    console.log('값', sendVo.achievementRate);
     useEffect(()=>{
-        fetch(`${baseURL}/list/imminent?achievementRate=` + sendVo.achievementRate)
+        fetch(`${baseURL}/project/list/imminent?achievementRate=${sendVo.achievementRate}`)
         .then((resp)=>{return resp.json()})
         .then((data)=>{
             setImminentVoList(data.voList);
